@@ -10,7 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
     inverse_m <<- NULL
   }
   get <- function(){ #comfirm current data
-    X
+    x
   }
   setinverse <- function(inverse){ #store the inverse matrix
     inverse_m <<- inverse
